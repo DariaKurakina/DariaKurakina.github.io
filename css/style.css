@@ -523,8 +523,8 @@ input:disabled + label:before {
 
 	}
 
-	.action-form {
-		margin-top:30px;
+	.action-form 
+{		margin-top:30px;
 		padding: 0;
 		width: 300px;
 		display: flex;

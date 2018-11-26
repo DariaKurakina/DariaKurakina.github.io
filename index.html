@@ -15,20 +15,21 @@
 		<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:700" rel="stylesheet">
 
 		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/animate.css">
 	</head>
 
 	<body>
 	 	<header class="header">
 	 		<div class="header-text">
-	 			<h1 class="header-title">Делаю сайты для вашего бизнеса</h1>
-				<p class="header-description">Я Дарья Куракина <br>разрабатываю сайты для бизнеса. Продающие одностраничники, имиджевые сайты-визитки или полноценные интернет-магазины.</p>
-				<a href="#" class="header-button">Примеры работ</a>
-				<a href="#" class="header-button header-button-o">Обсудить проект</a>
+	 			<h1 class="header-title wow fadeInLeftBig" data-wow-delay='0.1s' >Делаю сайты для вашего бизнеса</h1>
+				<p class="header-description  wow fadeInRightBig">Я Дарья Куракина <br>разрабатываю сайты для бизнеса. Продающие одностраничники, имиджевые сайты-визитки или полноценные интернет-магазины.</p>
+				<a href="#works" class="header-button">Примеры работ</a>
+				<a href="#action-form" class="header-button header-button-o">Обсудить проект</a>
 	 		</div>
 	 	</header>
 
-		<div class="works">
-			<div class="wraper">
+		<div class="works"> <a name="works"></a>
+			<div class="wraper wow fadeInUpBig">
 				<h2 class="block-title">Мои работы</h2>
 				<div class="works-items">
 					<div class="works-item">
@@ -57,12 +58,12 @@
 		<div class="action">
 			<div class="wraper">
 				<div class="action-container">
-					<div class="action-text">
+					<div class="action-text"> <a name="action-form"></a>
 						<h2 class="block-title">Нужен сайт</h2>
 						<p class="action-description">Если у вас есть задумки по сайту давайте обсудим их. Я сориентирую по срокам и стоимости.</p>
 					</div>
 
-					<form action="#" class="action-form">
+					<form action="#" class="action-form"> 
 						<input class="action-input" type="text" placeholder="e-mail">
 						<input class="action-submit" type="submit" value="Отправить">
 					</form>
@@ -143,7 +144,12 @@
 	 			</div>
 	 		</div>
 	 	</footer>
+	
+		<script src="JS/wow.min.js"></script>
 
+		<script>
+			new WOW().init();
+		</script>
 
 	 	<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
 	</body>
